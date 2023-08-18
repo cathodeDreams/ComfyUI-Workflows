@@ -1,5 +1,7 @@
 # txt>img
 
+![workflow image](https://github.com/cathodeDreams/ComfyUI-Workflows/blob/main/txt%20to%20img/txt%20to%20img.png)
+
 ### Overview
 
 This is what I use for standard txt>img generation. It generates 4 images in a batch and then upscales a selection of from that batch. The upscale is an iterative latent upscale x2, split into two, followed by a pixel scale x2 using 4x-ultrasharp. The upscales make use of the Controlnet tile model.
@@ -7,8 +9,11 @@ This is what I use for standard txt>img generation. It generates 4 images in a b
 ### The workflow requires these custom nodes:
 
 [ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack)
+
 [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
+
 [ComfyUI-Image-Selector](https://github.com/SLAPaper/ComfyUI-Image-Selector)
+
 [rgthree-comfy](https://github.com/rgthree/rgthree-comfy)
 
 ### Instructions for Use
