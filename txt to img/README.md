@@ -1,7 +1,5 @@
 # txt>img
 
-![workflow image](C:\Users\griff\OneDrive\Desktop\worldgen\ComfyUI\workflows\ComfyUI-Workflows\txt to img\txt to img.png)
-
 ### Overview
 
 This is what I use for standard txt>img generation. It generates 4 images in a batch and then upscales a selection of from that batch. The upscale is an iterative latent upscale x2, split into two, followed by a pixel scale x2 using 4x-ultrasharp. The upscales make use of the Controlnet tile model.
