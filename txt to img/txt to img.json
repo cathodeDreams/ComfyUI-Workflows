@@ -1,0 +1,6270 @@
+{
+  "last_node_id": 276,
+  "last_link_id": 480,
+  "nodes": [
+    {
+      "id": 117,
+      "type": "CLIPSetLastLayer",
+      "pos": [
+        500,
+        180
+      ],
+      "size": {
+        "0": 300,
+        "1": 70
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 203
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            204
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPSetLastLayer"
+      },
+      "widgets_values": [
+        -2
+      ],
+      "shape": 1
+    },
+    {
+      "id": 138,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1300,
+        "1": 800,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 231,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            232
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 133,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 80,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 226,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            233
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 134,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 190,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 227,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            234
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 135,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 480,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 228,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            235
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 137,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 700,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 230,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            236
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 139,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 800,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 232,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            237
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 141,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 900,
+        "1": 880,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 238,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            240
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 143,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2270,
+        "1": 330,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 246,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            250
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Left",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 145,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": -100,
+        "1": 1230,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 247,
+          "dir": 1,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            245
+          ],
+          "dir": 4,
+          "slot_index": 0,
+          "has_old_label": false
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Right"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 142,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 880,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 240,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            241
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 146,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": -100,
+        "1": 1020,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 273,
+          "dir": 4,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            247
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 161,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 400,
+        "1": 1480,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 302,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            277
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 167,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 400,
+        "1": 1510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 303,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            284
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 168,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 660,
+        "1": 1510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 284,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            285
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 172,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 1740,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 288,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            287
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 148,
+      "type": "KSampler",
+      "pos": [
+        400,
+        1230
+      ],
+      "size": {
+        "0": 300,
+        "1": 240
+      },
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 297
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 298
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 299
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 300
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 301,
+          "widget": {
+            "name": "seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            274,
+            279
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        623821318286123,
+        "randomize",
+        36,
+        8,
+        "dpmpp_2m",
+        "karras",
+        1
+      ],
+      "shape": 1
+    },
+    {
+      "id": 147,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2270,
+        "1": 1020,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 250,
+          "dir": 1,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            273
+          ],
+          "dir": 3,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 169,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1400,
+        "1": 1740,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 285,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            288
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 181,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1400,
+        "1": 1770,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 461,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            308
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 182,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 1770,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 308,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            309
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 183,
+      "type": "ControlNetLoader",
+      "pos": [
+        100,
+        2430
+      ],
+      "size": {
+        "0": 300,
+        "1": 70
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            311
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetLoader"
+      },
+      "widgets_values": [
+        "control_v11f1e_sd15_tile.pth"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 185,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 900,
+        "1": 2100,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 318,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            319
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 186,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1160,
+        "1": 2100,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 319,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            320
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 191,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 500,
+        "1": 2510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 56,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 325,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            331
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 184,
+      "type": "IterativeLatentUpscale",
+      "pos": [
+        1300,
+        2130
+      ],
+      "size": {
+        "0": 300,
+        "1": 130
+      },
+      "flags": {},
+      "order": 63,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 320
+        },
+        {
+          "name": "upscaler",
+          "type": "UPSCALER",
+          "link": 317
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            321
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IterativeLatentUpscale"
+      },
+      "widgets_values": [
+        2,
+        2,
+        ""
+      ],
+      "shape": 1
+    },
+    {
+      "id": 196,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1560,
+        "1": 2270,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 64,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 344,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            337
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 144,
+      "type": "Context (rgthree)",
+      "pos": [
+        100,
+        1230
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": 245,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            303
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            297
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 1
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 2
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            302
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 3
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [
+            298
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [
+            299
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 5
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            300
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 6
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [
+            301
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 8
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 190,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1160,
+        "1": 2509,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 331,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            343
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 204,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1300,
+        "1": 2270,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 62,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 343,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            344
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 177,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": -100,
+        "1": 2030,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 296,
+          "dir": 1,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            295
+          ],
+          "dir": 4,
+          "slot_index": 0,
+          "has_old_label": false
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Right"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 176,
+      "type": "Context (rgthree)",
+      "pos": [
+        100,
+        2030
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": 295,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            361
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            305
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 1
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 2
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            304,
+            325
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 3
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [
+            312
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [
+            313
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 5
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            318
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 6
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            310
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 7
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [
+            316
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 8
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 230,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": -100,
+        "1": 2830,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 73,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 391,
+          "dir": 1,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            390
+          ],
+          "dir": 4,
+          "slot_index": 0,
+          "has_old_label": false
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Right"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 232,
+      "type": "ControlNetApplyAdvanced",
+      "pos": [
+        500,
+        3130
+      ],
+      "size": {
+        "0": 300,
+        "1": 170
+      },
+      "flags": {},
+      "order": 81,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 397
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 398
+        },
+        {
+          "name": "control_net",
+          "type": "CONTROL_NET",
+          "link": 399
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 443
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            394
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            395
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetApplyAdvanced"
+      },
+      "widgets_values": [
+        1,
+        0,
+        1
+      ],
+      "shape": 1
+    },
+    {
+      "id": 233,
+      "type": "ControlNetLoader",
+      "pos": [
+        100,
+        3230
+      ],
+      "size": {
+        "0": 300,
+        "1": 70
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            399
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetLoader"
+      },
+      "widgets_values": [
+        "control_v11f1e_sd15_tile.pth"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 235,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1200,
+        "1": 2900,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 444,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            404
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 240,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 500,
+        "1": 3310,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 410,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            409
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 197,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2270,
+        "1": 2030,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 67,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 339,
+          "dir": 3,
+          "has_old_label": false,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            415
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Left",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 239,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1460,
+        "1": 3310,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 77,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 409,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            421
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 244,
+      "type": "IterativeImageUpscale",
+      "pos": [
+        1600,
+        2970
+      ],
+      "size": {
+        "0": 300,
+        "1": 150
+      },
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 420
+        },
+        {
+          "name": "upscaler",
+          "type": "UPSCALER",
+          "link": 418
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 421
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            422
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IterativeImageUpscale"
+      },
+      "widgets_values": [
+        2,
+        1,
+        ""
+      ],
+      "shape": 1
+    },
+    {
+      "id": 236,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1460,
+        "1": 2900,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 84,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 404,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            420
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 245,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        850,
+        3230
+      ],
+      "size": {
+        "0": 300,
+        "1": 60
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            423
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "4x-UltraSharp.pth"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 179,
+      "type": "ControlNetApplyAdvanced",
+      "pos": [
+        500,
+        2330
+      ],
+      "size": {
+        "0": 300,
+        "1": 170
+      },
+      "flags": {},
+      "order": 58,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 312
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 313
+        },
+        {
+          "name": "control_net",
+          "type": "CONTROL_NET",
+          "link": 311
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 310
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            314
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            315
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetApplyAdvanced"
+      },
+      "widgets_values": [
+        1,
+        0,
+        1
+      ],
+      "shape": 1
+    },
+    {
+      "id": 170,
+      "type": "Context (rgthree)",
+      "pos": [
+        2000,
+        1230
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": 287,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": 290,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 309,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            357
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 1
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 2
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 3
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 5
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 6
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 7
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 8
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 171,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1860,
+        "1": 1710,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 289,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            290
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 173,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2270,
+        "1": 1230,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 357,
+          "dir": 3,
+          "has_old_label": false,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            293
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Left",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 188,
+      "type": "VAEDecode",
+      "pos": [
+        1700,
+        2170
+      ],
+      "size": {
+        "0": 200,
+        "1": 50
+      },
+      "flags": {},
+      "order": 65,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 321
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 337
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            449
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "shape": 1
+    },
+    {
+      "id": 257,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 50,
+        "1": 3030,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 440,
+          "dir": 4,
+          "has_old_label": true,
+          "slot_index": 0,
+          "label": " "
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            441
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 256,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 310,
+        "1": 3030,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 442,
+          "dir": 1,
+          "has_old_label": true,
+          "slot_index": 0,
+          "label": " "
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            440
+          ],
+          "dir": 3,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 229,
+      "type": "Context (rgthree)",
+      "pos": [
+        100,
+        2830
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 74,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": 390,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            405
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            392
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 1
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 2
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            393,
+            410
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 3
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [
+            397
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [
+            398
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 5
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 6
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            442
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 7
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [
+            396
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 8
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 258,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 50,
+        "1": 3100,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 441,
+          "dir": 1,
+          "has_old_label": true,
+          "slot_index": 0,
+          "label": " "
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            438
+          ],
+          "dir": 4,
+          "slot_index": 0,
+          "has_old_label": false
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Right"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 136,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1300,
+        "1": 700,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 480,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            230
+          ],
+          "dir": 4
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 261,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 500,
+        "1": 260,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 452,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            453
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 262,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 760,
+        "1": 260,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 453,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            454
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 259,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 900,
+        "1": 560,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 454,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            455
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 231,
+      "type": "PixelKSampleUpscalerProvider",
+      "pos": [
+        1200,
+        2970
+      ],
+      "size": {
+        "0": 300,
+        "1": 330
+      },
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 392
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 393
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 394
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 395
+        },
+        {
+          "name": "upscale_model_opt",
+          "type": "UPSCALE_MODEL",
+          "link": 423
+        },
+        {
+          "name": "pk_hook_opt",
+          "type": "PK_HOOK",
+          "link": null
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 396,
+          "widget": {
+            "name": "seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "UPSCALER",
+          "type": "UPSCALER",
+          "links": [
+            418
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PixelKSampleUpscalerProvider"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        131777343897871,
+        "randomize",
+        36,
+        8,
+        "dpmpp_2m",
+        "karras",
+        0.5,
+        "disabled"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 264,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 3914.84716796875,
+        "1": 126.01377868652344,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "*",
+          "links": [],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 237,
+      "type": "Context (rgthree)",
+      "pos": [
+        2000,
+        2830
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 86,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": 405,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 422,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 1
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 2
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 3
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 5
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 6
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            472
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 7
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 8
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 159,
+      "type": "VAEDecode",
+      "pos": [
+        1000,
+        1230
+      ],
+      "size": {
+        "0": 200,
+        "1": 50
+      },
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 274
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 278
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            280
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "shape": 1
+    },
+    {
+      "id": 267,
+      "type": "VAEDecode",
+      "pos": [
+        1150,
+        1430
+      ],
+      "size": {
+        "0": 200,
+        "1": 50
+      },
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 460
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 462
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            461
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "shape": 1
+    },
+    {
+      "id": 162,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 660,
+        "1": 1480,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 277,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            278,
+            462
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 165,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1400,
+        "1": 1710,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 467,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            289
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 269,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1150,
+        "1": 1490,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 464,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            466
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 270,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1310,
+        "1": 1490,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 466,
+          "dir": 3,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            467
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 248,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 3691.58056640625,
+        "1": 1465.5059814453125,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 88,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 468,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            457
+          ],
+          "dir": 1,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 272,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2499.58056640625,
+        "1": 1450.5059814453125,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 476,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            474
+          ],
+          "dir": 1,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 187,
+      "type": "Context (rgthree)",
+      "pos": [
+        2000,
+        2030
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 66,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": 361,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 449,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            339
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 1
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 2
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 3
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 5
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 6
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            476
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 7
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 8
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 265,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2499.58056640625,
+        "1": 1480.5059814453125,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 87,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 472,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            468
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 273,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2490,
+        "1": 80,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 474,
+          "dir": 2,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            478
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Right"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 263,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 3690,
+        "1": 80,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 89,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 457,
+          "dir": 2,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            479
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Right"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 118,
+      "type": "VAELoader",
+      "pos": [
+        900,
+        480
+      ],
+      "size": {
+        "0": 300,
+        "1": 70
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            480
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "vae-ft-mse-840000-ema-pruned.safetensors"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 125,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1300,
+        480
+      ],
+      "size": {
+        "0": 400,
+        "1": 170
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 291
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            228
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "embedding:easynegative, (extra fingers, deformed hands, polydactyl:1.3), (worst quality, low quality:1.2), text, signature, watermark, nekomimi, animal ears"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930",
+      "shape": 1
+    },
+    {
+      "id": 274,
+      "type": "Note",
+      "pos": [
+        2595.8837165356413,
+        1627.5987099211548
+      ],
+      "size": {
+        "0": 300,
+        "1": 370
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Input your choice of checkpoint and lora in their respective nodes in Group A.\n\nClick New Fixed Random in the Seed node in Group A.\n\nMute the two Save Image nodes in Group E\n\nClick Queue Prompt to generate a batch of 4 image previews in Group B.\n\nUse the Latent Selector node in Group B to input a choice of images to upscale. 1,2,3, and/or 4 separated by commas.\n\nUn-mute either one or both of the Save Image nodes in Group E\n\nNote the Image Selector node in Group D. You will need to make further selections if your initial choice was more than one image. For example, if you chose 1,3 and want to fully upscale both images, the Image Selector node should be 1,2. Otherwise just type 2 there and generate again after 1.\n\nClick Queue Prompt to upscale your selection(s)\n\nPlease have a nice day"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
+    },
+    {
+      "id": 174,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2270,
+        "1": 1820,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 293,
+          "dir": 1,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            294
+          ],
+          "dir": 3,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 175,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": -100,
+        "1": 1820,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 294,
+          "dir": 4,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            296
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 227,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 2270,
+        "1": 2620,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 415,
+          "dir": 1,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            414
+          ],
+          "dir": 3,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 228,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": -100,
+        "1": 2620,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        30,
+        30
+      ],
+      "flags": {},
+      "order": 71,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 414,
+          "dir": 4,
+          "has_old_label": true,
+          "label": " ",
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            391
+          ],
+          "dir": 2,
+          "slot_index": 0,
+          "has_old_label": true,
+          "label": " "
+        }
+      ],
+      "properties": {
+        "size": [
+          30,
+          30
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1300,
+        190
+      ],
+      "size": {
+        "0": 400,
+        "1": 170
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 223
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            227
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "1girl, solo, full body, standing, black hair, high ponytail, pointy ears, peasant blouse, pants, (belts, pouches:0.95), boots, rugged, worn surfaces, explorer, awestruck, early morning glow, tropical, coast, verdant, cove, grotto, sunrise, night sky, hellenic, nice hands, best quality, masterpiece, by howard pyle"
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 115,
+      "type": "Lora Loader Stack (rgthree)",
+      "pos": [
+        900,
+        80
+      ],
+      "size": {
+        "0": 300,
+        "1": 250
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 202
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 204
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            226
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            223,
+            291
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Lora Loader Stack (rgthree)"
+      },
+      "widgets_values": [
+        "envybetterhandsLocon_beta2.safetensors",
+        1,
+        "add_detail.safetensors",
+        0.25,
+        "None",
+        0.3,
+        "None",
+        0.3
+      ],
+      "shape": 1
+    },
+    {
+      "id": 129,
+      "type": "Context (rgthree)",
+      "pos": [
+        2000,
+        330
+      ],
+      "size": {
+        "0": 200,
+        "1": 190
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_ctx",
+          "type": "RGTHREE_CONTEXT",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 233,
+          "dir": 3
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 236,
+          "dir": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 234,
+          "dir": 3
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 235,
+          "dir": 3
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": 237,
+          "dir": 3
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": null,
+          "dir": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 241,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT",
+          "type": "RGTHREE_CONTEXT",
+          "links": [
+            246
+          ],
+          "shape": 3,
+          "dir": 4,
+          "slot_index": 0
+        },
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        },
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": null,
+          "shape": 3,
+          "dir": 4
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Context (rgthree)"
+      },
+      "shape": 1
+    },
+    {
+      "id": 178,
+      "type": "PixelKSampleUpscalerProvider",
+      "pos": [
+        900,
+        2170
+      ],
+      "size": {
+        "0": 300,
+        "1": 330
+      },
+      "flags": {},
+      "order": 61,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 305
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 304
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 314
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 315
+        },
+        {
+          "name": "upscale_model_opt",
+          "type": "UPSCALE_MODEL",
+          "link": null
+        },
+        {
+          "name": "pk_hook_opt",
+          "type": "PK_HOOK",
+          "link": null
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 316,
+          "widget": {
+            "name": "seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "UPSCALER",
+          "type": "UPSCALER",
+          "links": [
+            317
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PixelKSampleUpscalerProvider"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        596455127853663,
+        "randomize",
+        36,
+        8,
+        "dpmpp_2m",
+        "karras",
+        0.7,
+        "disabled"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 247,
+      "type": "SaveImage",
+      "pos": [
+        3800,
+        80
+      ],
+      "size": {
+        "0": 2050,
+        "1": 2610
+      },
+      "flags": {},
+      "order": 90,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 479
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 131,
+      "type": "EmptyLatentImage",
+      "pos": [
+        900,
+        760
+      ],
+      "size": {
+        "0": 300,
+        "1": 110
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            231
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        640,
+        4
+      ],
+      "shape": 1
+    },
+    {
+      "id": 260,
+      "type": "Reroute (rgthree)",
+      "pos": {
+        "0": 1160,
+        "1": 560,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 455,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "size": [
+          40,
+          30
+        ]
+      },
+      "shape": 1
+    },
+    {
+      "id": 276,
+      "type": "Note",
+      "pos": [
+        900,
+        640
+      ],
+      "size": [
+        300,
+        70
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Connect the rightmost reroute node above to the one to the right for baked VAE."
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 164,
+      "type": "PreviewImage",
+      "pos": [
+        1400,
+        1229
+      ],
+      "size": {
+        "0": 500,
+        "1": 470
+      },
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 280
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "shape": 1
+    },
+    {
+      "id": 140,
+      "type": "Seed (rgthree)",
+      "pos": [
+        500,
+        720
+      ],
+      "size": {
+        "0": 210,
+        "1": 130
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "SEED",
+          "type": "INT",
+          "links": [
+            238
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Seed (rgthree)"
+      },
+      "widgets_values": [
+        359928193812207,
+        null,
+        null,
+        null
+      ],
+      "shape": 1
+    },
+    {
+      "id": 163,
+      "type": "LatentSelector",
+      "pos": [
+        800,
+        1330
+      ],
+      "size": {
+        "0": 300,
+        "1": 70
+      },
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 279
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            460,
+            464
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LatentSelector"
+      },
+      "widgets_values": [
+        "2"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
+    },
+    {
+      "id": 255,
+      "type": "ImageSelector",
+      "pos": [
+        100,
+        3100
+      ],
+      "size": {
+        "0": 210,
+        "1": 60
+      },
+      "flags": {},
+      "order": 80,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 438
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            443,
+            444
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageSelector"
+      },
+      "widgets_values": [
+        "1"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
+    },
+    {
+      "id": 114,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        100,
+        80
+      ],
+      "size": {
+        "0": 300,
+        "1": 100
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            202
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            203
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            452
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "breakdomainrealistic_R2333.safetensors"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 246,
+      "type": "SaveImage",
+      "pos": [
+        2600,
+        80
+      ],
+      "size": {
+        "0": 1020,
+        "1": 1330
+      },
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 478
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "shape": 1
+    }
+  ],
+  "links": [
+    [
+      202,
+      114,
+      0,
+      115,
+      0,
+      "MODEL"
+    ],
+    [
+      203,
+      114,
+      1,
+      117,
+      0,
+      "CLIP"
+    ],
+    [
+      204,
+      117,
+      0,
+      115,
+      1,
+      "CLIP"
+    ],
+    [
+      223,
+      115,
+      1,
+      124,
+      0,
+      "CLIP"
+    ],
+    [
+      226,
+      115,
+      0,
+      133,
+      0,
+      "*"
+    ],
+    [
+      227,
+      124,
+      0,
+      134,
+      0,
+      "*"
+    ],
+    [
+      228,
+      125,
+      0,
+      135,
+      0,
+      "*"
+    ],
+    [
+      230,
+      136,
+      0,
+      137,
+      0,
+      "*"
+    ],
+    [
+      231,
+      131,
+      0,
+      138,
+      0,
+      "*"
+    ],
+    [
+      232,
+      138,
+      0,
+      139,
+      0,
+      "*"
+    ],
+    [
+      233,
+      133,
+      0,
+      129,
+      1,
+      "MODEL"
+    ],
+    [
+      234,
+      134,
+      0,
+      129,
+      4,
+      "CONDITIONING"
+    ],
+    [
+      235,
+      135,
+      0,
+      129,
+      5,
+      "CONDITIONING"
+    ],
+    [
+      236,
+      137,
+      0,
+      129,
+      3,
+      "VAE"
+    ],
+    [
+      237,
+      139,
+      0,
+      129,
+      6,
+      "LATENT"
+    ],
+    [
+      238,
+      140,
+      0,
+      141,
+      0,
+      "*"
+    ],
+    [
+      240,
+      141,
+      0,
+      142,
+      0,
+      "*"
+    ],
+    [
+      241,
+      142,
+      0,
+      129,
+      8,
+      "INT"
+    ],
+    [
+      245,
+      145,
+      0,
+      144,
+      0,
+      "RGTHREE_CONTEXT"
+    ],
+    [
+      246,
+      129,
+      0,
+      143,
+      0,
+      "*"
+    ],
+    [
+      247,
+      146,
+      0,
+      145,
+      0,
+      "*"
+    ],
+    [
+      250,
+      143,
+      0,
+      147,
+      0,
+      "*"
+    ],
+    [
+      273,
+      147,
+      0,
+      146,
+      0,
+      "*"
+    ],
+    [
+      274,
+      148,
+      0,
+      159,
+      0,
+      "LATENT"
+    ],
+    [
+      277,
+      161,
+      0,
+      162,
+      0,
+      "*"
+    ],
+    [
+      278,
+      162,
+      0,
+      159,
+      1,
+      "VAE"
+    ],
+    [
+      279,
+      148,
+      0,
+      163,
+      0,
+      "LATENT"
+    ],
+    [
+      280,
+      159,
+      0,
+      164,
+      0,
+      "IMAGE"
+    ],
+    [
+      284,
+      167,
+      0,
+      168,
+      0,
+      "*"
+    ],
+    [
+      285,
+      168,
+      0,
+      169,
+      0,
+      "*"
+    ],
+    [
+      287,
+      172,
+      0,
+      170,
+      0,
+      "RGTHREE_CONTEXT"
+    ],
+    [
+      288,
+      169,
+      0,
+      172,
+      0,
+      "*"
+    ],
+    [
+      289,
+      165,
+      0,
+      171,
+      0,
+      "*"
+    ],
+    [
+      290,
+      171,
+      0,
+      170,
+      6,
+      "LATENT"
+    ],
+    [
+      291,
+      115,
+      1,
+      125,
+      0,
+      "CLIP"
+    ],
+    [
+      293,
+      173,
+      0,
+      174,
+      0,
+      "*"
+    ],
+    [
+      294,
+      174,
+      0,
+      175,
+      0,
+      "*"
+    ],
+    [
+      295,
+      177,
+      0,
+      176,
+      0,
+      "RGTHREE_CONTEXT"
+    ],
+    [
+      296,
+      175,
+      0,
+      177,
+      0,
+      "*"
+    ],
+    [
+      297,
+      144,
+      1,
+      148,
+      0,
+      "MODEL"
+    ],
+    [
+      298,
+      144,
+      4,
+      148,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      299,
+      144,
+      5,
+      148,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      300,
+      144,
+      6,
+      148,
+      3,
+      "LATENT"
+    ],
+    [
+      301,
+      144,
+      8,
+      148,
+      4,
+      "INT"
+    ],
+    [
+      302,
+      144,
+      3,
+      161,
+      0,
+      "*"
+    ],
+    [
+      303,
+      144,
+      0,
+      167,
+      0,
+      "*"
+    ],
+    [
+      304,
+      176,
+      3,
+      178,
+      1,
+      "VAE"
+    ],
+    [
+      305,
+      176,
+      1,
+      178,
+      0,
+      "MODEL"
+    ],
+    [
+      308,
+      181,
+      0,
+      182,
+      0,
+      "*"
+    ],
+    [
+      309,
+      182,
+      0,
+      170,
+      7,
+      "IMAGE"
+    ],
+    [
+      310,
+      176,
+      7,
+      179,
+      3,
+      "IMAGE"
+    ],
+    [
+      311,
+      183,
+      0,
+      179,
+      2,
+      "CONTROL_NET"
+    ],
+    [
+      312,
+      176,
+      4,
+      179,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      313,
+      176,
+      5,
+      179,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      314,
+      179,
+      0,
+      178,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      315,
+      179,
+      1,
+      178,
+      3,
+      "CONDITIONING"
+    ],
+    [
+      316,
+      176,
+      8,
+      178,
+      6,
+      "INT"
+    ],
+    [
+      317,
+      178,
+      0,
+      184,
+      1,
+      "UPSCALER"
+    ],
+    [
+      318,
+      176,
+      6,
+      185,
+      0,
+      "*"
+    ],
+    [
+      319,
+      185,
+      0,
+      186,
+      0,
+      "*"
+    ],
+    [
+      320,
+      186,
+      0,
+      184,
+      0,
+      "LATENT"
+    ],
+    [
+      321,
+      184,
+      0,
+      188,
+      0,
+      "LATENT"
+    ],
+    [
+      325,
+      176,
+      3,
+      191,
+      0,
+      "*"
+    ],
+    [
+      331,
+      191,
+      0,
+      190,
+      0,
+      "*"
+    ],
+    [
+      337,
+      196,
+      0,
+      188,
+      1,
+      "VAE"
+    ],
+    [
+      339,
+      187,
+      0,
+      197,
+      0,
+      "*"
+    ],
+    [
+      343,
+      190,
+      0,
+      204,
+      0,
+      "*"
+    ],
+    [
+      344,
+      204,
+      0,
+      196,
+      0,
+      "*"
+    ],
+    [
+      357,
+      170,
+      0,
+      173,
+      0,
+      "*"
+    ],
+    [
+      361,
+      176,
+      0,
+      187,
+      0,
+      "RGTHREE_CONTEXT"
+    ],
+    [
+      390,
+      230,
+      0,
+      229,
+      0,
+      "RGTHREE_CONTEXT"
+    ],
+    [
+      391,
+      228,
+      0,
+      230,
+      0,
+      "*"
+    ],
+    [
+      392,
+      229,
+      1,
+      231,
+      0,
+      "MODEL"
+    ],
+    [
+      393,
+      229,
+      3,
+      231,
+      1,
+      "VAE"
+    ],
+    [
+      394,
+      232,
+      0,
+      231,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      395,
+      232,
+      1,
+      231,
+      3,
+      "CONDITIONING"
+    ],
+    [
+      396,
+      229,
+      8,
+      231,
+      6,
+      "INT"
+    ],
+    [
+      397,
+      229,
+      4,
+      232,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      398,
+      229,
+      5,
+      232,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      399,
+      233,
+      0,
+      232,
+      2,
+      "CONTROL_NET"
+    ],
+    [
+      404,
+      235,
+      0,
+      236,
+      0,
+      "*"
+    ],
+    [
+      405,
+      229,
+      0,
+      237,
+      0,
+      "RGTHREE_CONTEXT"
+    ],
+    [
+      409,
+      240,
+      0,
+      239,
+      0,
+      "*"
+    ],
+    [
+      410,
+      229,
+      3,
+      240,
+      0,
+      "*"
+    ],
+    [
+      414,
+      227,
+      0,
+      228,
+      0,
+      "*"
+    ],
+    [
+      415,
+      197,
+      0,
+      227,
+      0,
+      "*"
+    ],
+    [
+      418,
+      231,
+      0,
+      244,
+      1,
+      "UPSCALER"
+    ],
+    [
+      420,
+      236,
+      0,
+      244,
+      0,
+      "IMAGE"
+    ],
+    [
+      421,
+      239,
+      0,
+      244,
+      2,
+      "VAE"
+    ],
+    [
+      422,
+      244,
+      0,
+      237,
+      7,
+      "IMAGE"
+    ],
+    [
+      423,
+      245,
+      0,
+      231,
+      4,
+      "UPSCALE_MODEL"
+    ],
+    [
+      438,
+      258,
+      0,
+      255,
+      0,
+      "IMAGE"
+    ],
+    [
+      440,
+      256,
+      0,
+      257,
+      0,
+      "*"
+    ],
+    [
+      441,
+      257,
+      0,
+      258,
+      0,
+      "*"
+    ],
+    [
+      442,
+      229,
+      7,
+      256,
+      0,
+      "*"
+    ],
+    [
+      443,
+      255,
+      0,
+      232,
+      3,
+      "IMAGE"
+    ],
+    [
+      444,
+      255,
+      0,
+      235,
+      0,
+      "*"
+    ],
+    [
+      449,
+      188,
+      0,
+      187,
+      7,
+      "IMAGE"
+    ],
+    [
+      452,
+      114,
+      2,
+      261,
+      0,
+      "*"
+    ],
+    [
+      453,
+      261,
+      0,
+      262,
+      0,
+      "*"
+    ],
+    [
+      454,
+      262,
+      0,
+      259,
+      0,
+      "*"
+    ],
+    [
+      455,
+      259,
+      0,
+      260,
+      0,
+      "*"
+    ],
+    [
+      457,
+      248,
+      0,
+      263,
+      0,
+      "*"
+    ],
+    [
+      460,
+      163,
+      0,
+      267,
+      0,
+      "LATENT"
+    ],
+    [
+      461,
+      267,
+      0,
+      181,
+      0,
+      "*"
+    ],
+    [
+      462,
+      162,
+      0,
+      267,
+      1,
+      "VAE"
+    ],
+    [
+      464,
+      163,
+      0,
+      269,
+      0,
+      "*"
+    ],
+    [
+      466,
+      269,
+      0,
+      270,
+      0,
+      "*"
+    ],
+    [
+      467,
+      270,
+      0,
+      165,
+      0,
+      "*"
+    ],
+    [
+      468,
+      265,
+      0,
+      248,
+      0,
+      "*"
+    ],
+    [
+      472,
+      237,
+      7,
+      265,
+      0,
+      "*"
+    ],
+    [
+      474,
+      272,
+      0,
+      273,
+      0,
+      "*"
+    ],
+    [
+      476,
+      187,
+      7,
+      272,
+      0,
+      "*"
+    ],
+    [
+      478,
+      273,
+      0,
+      246,
+      0,
+      "IMAGE"
+    ],
+    [
+      479,
+      263,
+      0,
+      247,
+      0,
+      "IMAGE"
+    ],
+    [
+      480,
+      118,
+      0,
+      136,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "A",
+      "bounding": [
+        -1,
+        -33,
+        2199,
+        1028
+      ],
+      "color": "#444",
+      "locked": false
+    },
+    {
+      "title": "C",
+      "bounding": [
+        0,
+        1865,
+        2200,
+        736
+      ],
+      "color": "#444",
+      "locked": false
+    },
+    {
+      "title": "B",
+      "bounding": [
+        -2,
+        1066,
+        2203,
+        734
+      ],
+      "color": "#444",
+      "locked": false
+    },
+    {
+      "title": "D",
+      "bounding": [
+        2,
+        2667,
+        2198,
+        734
+      ],
+      "color": "#444",
+      "locked": false
+    },
+    {
+      "title": "E",
+      "bounding": [
+        2493,
+        -39,
+        3400,
+        2834
+      ],
+      "color": "#444",
+      "locked": false
+    }
+  ],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
