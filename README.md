@@ -7,7 +7,7 @@ I haven't uploaded my workflows anywhere and learned how to use ComfyUI largely 
 
 [Text to image featuring selection from initial batch](https://github.com/cathodeDreams/ComfyUI-Workflows/tree/main/txt%20to%20img)
 
-[Testing Section](https://github.com/cathodeDreams/ComfyUI-Workflows/tree/main/testing)
+[Multi-Latent Compositing from batch selection](https://github.com/cathodeDreams/ComfyUI-Workflows/tree/main/Multi-Latent%20Compositing%20from%20batches)
 
 ### Todo
 

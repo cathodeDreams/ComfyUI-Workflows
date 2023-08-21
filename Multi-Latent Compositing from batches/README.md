@@ -1,6 +1,6 @@
 # Multi-Latent Compositing from batch selection
 
-![workflow image](https://github.com/cathodeDreams/ComfyUI-Workflows/blob/main/testing/latent%20compositing%20from%20batch%20selection/workflow(10).png)
+![workflow image](https://raw.githubusercontent.com/cathodeDreams/ComfyUI-Workflows/main/Multi-Latent%20Compositing%20from%20batches/compositing.png)
 
 ### Overview
 
