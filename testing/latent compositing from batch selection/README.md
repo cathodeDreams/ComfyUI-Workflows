@@ -8,6 +8,8 @@ This workflow allows you to set latent regions and generate a batch of images th
 
 ### Requires these custom nodes:
 
+[ComfyUI_Dave_CustomNode](https://github.com/Davemane42/ComfyUI_Dave_CustomNode)
+
 [ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack)
 
 [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
