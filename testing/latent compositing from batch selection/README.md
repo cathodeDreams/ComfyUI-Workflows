@@ -1,6 +1,6 @@
 # latent compositing from batch selection
 
-![workflow image](https://github.com/cathodeDreams/ComfyUI-Workflows/blob/main/txt%20to%20img/txt%20to%20img.png)
+![workflow image](https://github.com/cathodeDreams/ComfyUI-Workflows/blob/main/testing/latent%20compositing%20from%20batch%20selection/workflow(10).png)
 
 ### Overview
 
