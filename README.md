@@ -7,6 +7,8 @@ I haven't uploaded my workflows anywhere and learned how to use ComfyUI largely 
 
 [Text to image featuring selection from initial batch](https://github.com/cathodeDreams/ComfyUI-Workflows/tree/main/txt%20to%20img)
 
+[Testing Section](https://github.com/cathodeDreams/ComfyUI-Workflows/tree/main/testing)
+
 ### Todo
 
 Work on refining other workflows to share here
